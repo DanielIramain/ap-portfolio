@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Person } from 'src/app/model/person.model';
+import { person } from 'src/app/model/person.model';
 import { PersonService } from 'src/app/service/person.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { PersonService } from 'src/app/service/person.service';
 })
 export class AboutComponent implements OnInit {
   //person initialized
-  person: Person = new Person("","","");
+  person: person = new person("","","");
   constructor(public personService: PersonService) { }
 
   ngOnInit(): void {
