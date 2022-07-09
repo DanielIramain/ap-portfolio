@@ -1,4 +1,4 @@
-export class person {
+export class Person {
     id?: Number
     name: String;
     lastname: String;
